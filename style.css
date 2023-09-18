@@ -105,3 +105,60 @@ ul li{
     transform: translateX(-50%);
     text-transform: uppercase;
 }
+
+
+/* ..... logo section ..... */
+
+.logo-section{
+    width: 100%;
+    padding: 120px 0px;
+}
+
+.logo-section .container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 68px;
+    column-gap: 5%;
+}
+
+.logo-section .container .logo{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 26px;
+}
+
+.logo-section .container .logo h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 36px;
+    margin-bottom: 26px;
+}
+
+.logo-section .container .logo p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ..... image banner sectio ..... */
+
+.image-banner{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+.image-banner .photo-section{
+    max-width: calc(25% - 1px);
+    height: 240px;
+}
+
+.image-banner .photo-section img{
+    width: 100%;
+}
