@@ -208,3 +208,41 @@ ul li{
 .image-banner .photo-section:hover .photo-text{
     opacity: 1;
 }
+
+
+/* ..... employ section ..... */
+
+.employ-section{
+    padding: 100px 0px;
+}
+
+.employ-section .container{
+    display: flex;
+    gap: 30px;
+}
+
+.employ-inrto h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #8A8C8D;
+    margin-top: 30px;
+}
+
+.employ-inrto p:first-of-type{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #E84545;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.employ-inrto p:last-of-type{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C7279;
+    padding-right: 50px;
+}
+
